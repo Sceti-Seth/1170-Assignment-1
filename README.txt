@@ -8,6 +8,8 @@ In the top is the nav bar. It is in a table. I also used Blasstoffff.jpg for the
 Education.html Summary:
 In the top is the nav bar. It is in a table. I also used Blasstoffff.jpg for the favicon. Below that is a break and then some text. I have an unordered list beneath that with a nested unordered list inside of it. Below the list is some text and an image which is clickable through an external link. In my footer is my contact info with a clickable email.
 
+Style.css Summary
+
 Citations:
 [1]Anon. BLASTOFFFF, Joywave. Retrieved February 8, 2024 from https://www.qobuz.com/us-en/album/blastoffff-joywave/iv6exm3vvfa6a 
 [2]Anon.Retrieved February 8, 2024b from https://www.joywavemerch.com/ 
