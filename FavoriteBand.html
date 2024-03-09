@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The website</title>
+    <title>Bands</title>
     <link rel="icon" href="Blastoffff.jpg"><!--Citation [1]-->
+    <link rel="stylesheet" href="styles.css">
+    <class id="headerText">
     <table>
         <tr>
         <td><a href="index.html">Home Page</a> |</td>
@@ -12,12 +14,20 @@
         <td><a href="Education.html">Education</a></td>
         </tr>
     </table>
+    </class>
     <hr>
 </head>
+<style>
+    body{
+        background-color: rgba(202, 80, 226, 0.911);
+    }
+</style>
 <body>
     <img src="Joywavelogo.png" alt="Joywave Logo" width="500" height="250"><!--Citation [2] -->
-    <h1>Joywave</h1>
-    <p>My favorite band is Joywave. It has been my favorite band for almost 6 years. The band has an official website, click <a href="https://joywavemusic.com/">here</a><!--Citation [7]--> to go to it. Another band that I like that also has a website is Charming Liars. You can click <a href="https://www.charmingliars.com/">here</a><!--Citation [6] --> to visit it. I didn't discover them until the summer of 2023, but they've quickly become one of my favorite bands.</p>
+    <div id="mainJoywaveBody">
+    <p>My favorite band is Joywave. It has been my favorite band for almost 6 years. The band has an official website, click <a href="https://joywavemusic.com/">here</a><!--Citation [7]-->
+         to go to it. Another band that I like that also has a website is Charming Liars. You can click <a href="https://www.charmingliars.com/">
+        here</a><!--Citation [6] --> to visit it. I didn't discover them until the summer of 2023, but they've quickly become one of my favorite bands.</p>
     <audio controls>
         <source src="BlastoffffAudio.mp3" type="audio/mp3"><!--Citation [3] -->
     </audio>
@@ -26,28 +36,27 @@
         <source src="Obsession.mp4" type="video/mp4"><!--Citation [4]-->
     </video>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/axEJr2qAEfE?si=cXueUs8a4qv7NyxY"></iframe><!--Citation [5]-->
+</div>
+<div id="joywaveExtraMusic">
     <p>That is one of Joywave's videos from behind the scenes. They have made 3 so far, and will make one more soon.<br><br>Here are my favorite songs by Joywave in order</p>
     <ol>
         <li>Blastoffff</li>
+        <li>F.E.A.R.</li>
         <li>Doubt</li>
         <li>Obsession</li>
-        <li>Somebody New</li>
     </ol>
-    <ul>
-        <p>Some of their upcoming shows are:</p>
-        <li>February 21 in Atlanta, GA</li>
-        <li>February 22 in Nashville, TN</li>
-        <li>February 23, Charlotte, NC</li>
-    </ul>
     <p>Some of their albums and their respective in order</p>
     <ol>
-        <li>How Do You Feel Know? (2015)</li>
+        <li>How Do You Feel Now? (2015)</li>
         <li>Content (2017)</li>
         <li>Cleanse (2022)</li>
     </ol>
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Joywave_-_How_Do_You_Feel_Now%3F_cover_art.jpg/220px-Joywave_-_How_Do_You_Feel_Now%3F_cover_art.jpg" alt="How Do You Feel Now Cover" width="250" height="250"><br><!--Citation[8]-->
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Joywave_-_Content_%282017%29_cover.jpg/220px-Joywave_-_Content_%282017%29_cover.jpg" alt="Content Album Cover" width="250" height="250"><br><!--Citation [9]-->
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Joywave_Cleanse.jpg/220px-Joywave_Cleanse.jpg" alt="Cleanse Album Cover" width="250" height="250"><!--Citation [10]-->
+</div>
+    <div class="container">
+        <div class="item"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Joywave_-_How_Do_You_Feel_Now%3F_cover_art.jpg/220px-Joywave_-_How_Do_You_Feel_Now%3F_cover_art.jpg" alt="How Do You Feel Now? Cover"><!--Citation[8]--></div>
+        <div class="item"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Joywave_-_Content_%282017%29_cover.jpg/220px-Joywave_-_Content_%282017%29_cover.jpg" alt="Content Cover"><!--Citation [9]--></div>
+        <div class="item"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Joywave_Cleanse.jpg/220px-Joywave_Cleanse.jpg" alt="Cleanse Cover"><!--Citation [10]--></div>       
+    </div>
 </body>
 <footer>
     <hr>
